@@ -1,3 +1,18 @@
+:root{
+        font-family: "Alice", serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 180% ;
+      }
+      
+    h1{ text-align: center;
+        font-size: 2rem;
+
+      }
+      h2{
+        margin-left: 20px;
+        font-size: 1.5rem;
+      }
 body {
     background-image: url(assets/cupcakes-4637878.jpg);
     background-size: cover;
@@ -5,22 +20,29 @@ body {
 
 #page {
     box-sizing: border-box;
-    padding: 24px;
-    margin: 1fr 1fr;
+    padding: 40px;
     background-color: #f0e8c2 ;
     border-radius: 32px;
     max-width: 70%;
     margin: 50px auto ;
 }
 #imagen img  {
+    box-sizing: border-box;
+        margin: 0px auto;
         width: 80%;
         height: 600px;
         object-fit: cover;
         border-radius: 30px;
+        overflow: hidden;
+        width: 100%; 
+        height: 100%; 
 }
 #imagen {
-        margin: 30px auto;
+    box-sizing: border-box;
         width: 100%; 
-        height: 50%; 
-        overflow: hidden;
+        height: 500px; 
+      }
+
+      h1 p {
+        font-family:alita ;
       }
